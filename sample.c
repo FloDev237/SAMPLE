@@ -17,5 +17,12 @@ while( pow > 0 ) {
 accumulator *= value; 
 pow--; 
 } 
-return accumulator; 
-} 
+return accumulator; }
+
+// Définition d'une fonction de permutation 
+void permutation(int *a, int *b){
+int c= 0;
+c = *a;
+*a = *b;
+*b = c;
+}
