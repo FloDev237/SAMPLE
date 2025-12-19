@@ -6,4 +6,11 @@ unsigned int fact( unsigned int value );
 int power( int value, unsigned int pow ); 
 // Définition d'une fonction de permuation .
 void permutation(int *a, int *b);
+// Définition des fonctions pour resoudre l'equation du second degre .
+void resoudreEquationSecondDegre();
+// Définition de la fonction NombrePremier.
+void verifierNombrePremier();
+// Définition de la fonction calculer et afficher distance.
+void calculerEtAfficherDistance();
+
 #endif 
